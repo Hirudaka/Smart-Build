@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Construction.iml" filepath="$PROJECT_DIR$/.idea/Construction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/procurement_manager-api/procurement_manager-api.iml" filepath="$PROJECT_DIR$/procurement_manager-api/procurement_manager-api.iml" />
+    </modules>
+  </component>
+</project>
