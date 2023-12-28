@@ -1,6 +1,6 @@
 package com.example.procurement_managerapi.entity;
 
-import jakarta.persistence.*
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
