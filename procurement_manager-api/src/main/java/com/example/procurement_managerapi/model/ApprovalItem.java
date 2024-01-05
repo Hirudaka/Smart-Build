@@ -1,6 +1,6 @@
 package com.example.procurement_managerapi.model;
 
-import lombok.AllArgsConstructor;
+import lombok.AllArgsConstructor
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
