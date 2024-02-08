@@ -20,27 +20,29 @@ public class SiteController {
     public SiteController(SiteService siteService) {
         this.siteService = siteService;
     }
+    //create function
     @PostMapping("/sites")
     public Site createSite(@RequestBody Site site){
         return siteService.createSite(site);
     }
-
+    //get all function
     @GetMapping("/sites")
     public List<Site> getAllSites(){
         return siteService.getAllSites();
     }
-
+    //get one function
     @GetMapping("/sites/{Id}")
     public Site getSiteById(@PathVariable Long Id){
         return siteService.getSiteById(Id);
     }
+    //edit function
     @PutMapping("/sites/{id}")
     public ResponseEntity<Site> updateSite(@PathVariable Long id,
                                            @RequestBody Site site){
         site = siteService.updateSite(id, site);
         return ResponseEntity.ok(site);
     }
-
+    //delete function
     @DeleteMapping("/sites/{id}")
     public ResponseEntity<Map<String,Boolean>> deleteSite(@PathVariable Long id){
         boolean deleted = false;
