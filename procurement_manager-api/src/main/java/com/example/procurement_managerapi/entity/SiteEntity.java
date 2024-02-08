@@ -6,6 +6,8 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name="sites")
+    
+//fields containing in the entity class
 public class SiteEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
